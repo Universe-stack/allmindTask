@@ -9,7 +9,7 @@ type Props = {
 const DemoButtons = (props: Props) => {
   return (
     <div className='flex flex-col ' onClick={()=>props.updateui('desc')}>
-        <div className='flex justify-between'>
+        <div className='2xl:flex-row xl:flex-row md:flex-row sm:flex-col xsm:flex-col xsm:gap-4 sm:gap-4 relative flex justify-between'>
             <ul className='flex gap-2 '>
                 <li className=''><button className='px-4 py-2 rounded-xl border border-[#ffffff1a] cursor-pointer '>Brevity</button></li>
                 <li className=''><button className='py-2 px-4 rounded-xl border border-[#ffffff1a] cursor-pointer'>Relevance</button></li>

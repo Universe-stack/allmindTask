@@ -13,12 +13,12 @@ const Demo = (props: Props) => {
     <section className='w-full flex justify-center py-[6.25rem] bg-halluminateBlack text-halluminateWhite'>
         <div className='w-[85%] self-center flex flex-col justify-center'>
             <div className='flex flex-col gap-[16px] text-center'>
-                <h2 className='text-[64px] text-halluminateWhite'> Try our demo below</h2>
-                <p className='text-[20px]'>AI agent outputs will be graded against pre-defined criteria judged by evaluation models.</p>
+                <h2 className='2xl:text-[4rem] xl:text-[4rem] md:text-[3rem] sm:text-[2.5rem] xsm:text-[2.5rem]  text-halluminateWhite'> Try our demo below</h2>
+                <p className='2xl:text-[1.25rem] xl:text-[1.25rem] md:text-[1.5rem] sm:text-[1rem] xsm:text-[0.89rem]'>AI agent outputs will be graded against pre-defined criteria judged by evaluation models.</p>
             </div>
 
-            <div className='flex w-full justify-between gap-[5%] mt-[4rem] mb-[4px]'>
-                <div className='relative flex flex-col rounded-xl w-[50%] border border-[#ffffff1a] h-[65vh] p-4 shadow-2xl bg-[#282b3066]'>
+            <div className=' flex 2xl:flex-row xl:text-flex-row md:flex-row sm:flex-col xsm:flex-col w-full justify-between gap-[5%] mt-[4rem] mb-[4px]'>
+                <div className='2xl:w-[50%] xl:w-[50%] md:w-[100%] sm:w-[100%] xsm:w-[100%] relative flex flex-col rounded-xl  border border-[#ffffff1a] h-[65vh] p-4 shadow-2xl bg-[#282b3066]'>
                     <div className='flex justify-end items-center'>
                         <div className='p-[0.5rem] rounded-xl border border-[#ffffff1a] flex justify-center items-center cursor-pointer'>
                             <svg
@@ -44,7 +44,7 @@ const Demo = (props: Props) => {
                     <h3 className='absolute top-0 bottom-0 left-0 right-0 text-center self-center text-halluminateWhite'> AI agent example</h3>
                 </div>
 
-                <div className='rounded-xl w-[50%] border border-[#ffffff1a] h-[65vh] p-4 shadow-2xl'>
+                <div className='2xl:w-[50%] xl:w-[50%] md:w-[100%] sm:w-[100%] xsm:w-[100%] relative flex flex-col rounded-xl  border border-[#ffffff1a] h-[65vh] p-4 shadow-2xl'>
                     <div className='flex flex-col'>
                         <div className=''>
                             <DemoButtons updateui={updatesort} />
